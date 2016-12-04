@@ -3,27 +3,27 @@ I touched base on the history of chat networks and problem of siloization in my 
 A perfect chat service should be ...
 
 * Free
-** free to use - in all aspects of the word "free" ...
-** ... but it's still needed with some protection against spamming
-** possible to use for anyone, on any platform
-** based on free and open source software
-** based on open standards
-** decentralized - not dependent on a single entity (company or person)
-** federated; anyone should be able to set up servers and become part of the network
+  * free to use - in all aspects of the word "free" ...
+  * ... but it's still needed with some protection against spamming
+  * possible to use for anyone, on any platform
+  * based on free and open source software
+  * based on open standards
+  * decentralized - not dependent on a single entity (company or person)
+  * federated; anyone should be able to set up servers and become part of the network
 * Secure
-** encrypted, with strong end-to-end-encryption as default.
-** with encryption also on the meta-data; noone should know that Alice has spoken with Bob.
-** with good authentication of the sender - it should be impossible to send with a spoofed sender identity ...
-** ... but "deniability" may also be an important feature, the sender may not want the receiver to be able to prove that the chat has taken place
-** with forward secrecy: past communications should be secure even if the keys are stolen
-** audited: an external party ought to have audited the security design and code
+  * encrypted, with strong end-to-end-encryption as default.
+  * with encryption also on the meta-data; noone should know that Alice has spoken with Bob.
+  * with good authentication of the sender - it should be impossible to send with a spoofed sender identity ...
+  * ... but "deniability" may also be an important feature, the sender may not want the receiver to be able to prove that the chat has taken place
+  * with forward secrecy: past communications should be secure even if the keys are stolen
+  * audited: an external party ought to have audited the security design and code
 * Feature-rich ...
-** easy to use for most of us.
-** with possibility for textchat, voice calls and video calls
-** with possibility for both private two-party conversations and group chats.
-** with permission for anyone to set up new groups - instantly.
-** with a public, easily searchable directory of public groups.
-** with decent handling of links, possibility to embed multimedia, rich formatted text, etc
+  * easy to use for most of us.
+  * with possibility for textchat, voice calls and video calls
+  * with possibility for both private two-party conversations and group chats.
+  * with permission for anyone to set up new groups - instantly.
+  * with a public, easily searchable directory of public groups.
+  * with decent handling of links, possibility to embed multimedia, rich formatted text, etc
 
 Anything I've forgotten here?  Please do use the comments field ...
 
@@ -107,7 +107,7 @@ Some ways to prevent it:
 * A peer-to-peer online identity and reputation scoring system could probably have solved this nicely.  Actually, I think we really need a global open peer-to-peer reputation scoring system - more about that in future posts.
 
 ## Protection  with encryption also on the meta-data; noone should know that Alice has spoken with Bob.
-** with good authentication of the sender - it should be impossible to send with a spoofed sender identity ...
-** ... but "deniability" may also be an important feature, the sender may not want the receiver to be able to prove that the chat has taken place
-** with forward secrecy: past communications should be secure even if the keys are stolen
-** audited: an external party ought to have audited the security design and code
+with good authentication of the sender - it should be impossible to send with a spoofed sender identity ...
+ ... but "deniability" may also be an important feature, the sender may not want the receiver to be able to prove that the chat has taken place
+with forward secrecy: past communications should be secure even if the keys are stolen
+audited: an external party ought to have audited the security design and code
