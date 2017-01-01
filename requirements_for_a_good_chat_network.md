@@ -41,7 +41,7 @@ This is quite important, I'd say - a service that can be used by 99% of the popu
 
 Is this nonsense?  You probably only need to chat with the 98% normal people out there, and not those other freaks?  Feel free to tell in the comments :-)
 
-!(http://www.bluebadgestyle.com/wp-content/uploads/2013/07/disabled-toilet-down-stairs.jpg)
+!["Stolen" picture - haven't managed to find the origin](http://www.bluebadgestyle.com/wp-content/uploads/2013/07/disabled-toilet-down-stairs.jpg)
 
 # Free and open source software
 
