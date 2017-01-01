@@ -31,7 +31,7 @@ Lets go through those features/requirements ...
 
 # Freedom
 
-![Drawn by author, released as Public Domain](http://github.com/tobixen/chat-articles/liberatechat.png)
+![Drawn by author, released as Public Domain](http://github.com/tobixen/chat-articles/blob/master/liberatechat.png)
 
 ## Free as in gratis - no cost
 
