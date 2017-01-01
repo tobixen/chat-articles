@@ -31,6 +31,8 @@ Lets go through those features/requirements ...
 
 # Freedom
 
+![Drawn by author, released as Public Domain](http://github.com/tobixen/chat-articles/liberatechat.png)
+
 ## Free as in gratis - no cost
 
 One is often regarded as a miser if one is reluctant to pay and demanding that some service should be free.  The old phone network and SMS'es are paid services.  There are certainly benefits with this - one should perhaps expect higher reliability and availability from a paid-for service than for some free service, it's to some extent working as a deterent against spamming (but maybe not so much - I do get a decent amount of spam both to my physical paper-mailbox as well as to my telephone), it may cause better utilization of resources ... and it does require resources to build and maintain a perfect chat service - someone has to pay, directly or indirectly.  There ain't no such thing as a free lunch.  Actually I wouldn't mind paying a bit for a decent chat service, except, if it wasn't for ...
