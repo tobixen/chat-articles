@@ -1,39 +1,8 @@
-I touched base on the history of chat networks and problem of siloization in my previous post [The great chat fragmentation](https://steemit.com/technology/@tobixen/the-great-chat-fragmentation).  In this post I'm trying to describe what I want from a chat network.  I'm also planning to try to make a list of existing chat services and see how they compare to the requirements listed here.
-
-A perfect chat service should be ...
-
-* Free
-  * free to use - in all aspects of the word "free" ...
-  * ... but it's still needed with some protection against spamming
-  * possible to use for anyone, on any platform
-  * based on free and open source software
-  * based on open standards
-  * decentralized - not dependent on a single entity (company or person)
-  * federated; anyone should be able to set up servers and become part of the network
-* Secure
-  * encrypted, with strong end-to-end-encryption as default.
-  * with encryption also on the meta-data; noone should know that Alice has spoken with Bob.
-  * with good authentication of the sender - it should be impossible to send with a spoofed sender identity ...
-  * ... but "deniability" may also be an important feature, the sender may not want the receiver to be able to prove that the chat has taken place
-  * with forward secrecy: past communications should be secure even if the keys are stolen
-  * audited: an external party ought to have audited the security design and code
-* Feature-rich ...
-  * easy to use for most of us.
-  * with possibility for textchat, voice calls and video calls
-  * with possibility for both private two-party conversations and group chats.
-  * with permission for anyone to set up new groups - instantly.
-  * with a public, easily searchable directory of public groups.
-  * with decent handling of links, possibility to embed multimedia, rich formatted text, etc
-
-Anything I've forgotten here?  Please do use the comments field ...
-
-Lets go through those features/requirements ...
-
-# Freedom
+I touched base on the history of chat networks and problem of siloization in my previous post [The great chat fragmentation](https://steemit.com/technology/@tobixen/the-great-chat-fragmentation).  I will go on and describe what I want from a perfect chat network: it should be free, it should be secure and it should be feature-rich.  This post will elaborate on the first of those three points - freedom.
 
 ![Drawn by author, released as Public Domain](http://github.com/tobixen/chat-articles/raw/master/liberatechat.png)
 
-## Free as in gratis - no cost
+# Free as in gratis - no cost
 
 One is often regarded as a miser if one is reluctant to pay and demanding that some service should be free.  The old phone network and SMS'es are paid services.  There are certainly benefits with this - one should perhaps expect higher reliability and availability from a paid-for service than for some free service, it's to some extent working as a deterent against spamming (but maybe not so much - I do get a decent amount of spam both to my physical paper-mailbox as well as to my telephone), it may cause better utilization of resources ... and it does require resources to build and maintain a perfect chat service - someone has to pay, directly or indirectly.  There ain't no such thing as a free lunch.  Actually I wouldn't mind paying a bit for a decent chat service, except, if it wasn't for ...
 
@@ -44,7 +13,9 @@ One is often regarded as a miser if one is reluctant to pay and demanding that s
 
 Would you use a paid-for chat service?  Feel free to tell in the comments :-)
 
-## No evil plans for future profit generation
+![Andrew Butko [GFDL 1.3 (www.gnu.org/licenses/fdl-1.3.html) or CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/0/01/%D0%A2%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD_2.jpg)
+
+# No evil plans for future profit generation
 
 A service may be "gratis" without really being free - and those services may actually be the worst, I think it's better with honest, up-front payments than service providers giving away services for free and having some secret, potentially evil plans on how to turn it into a future profit.  It's not unusual that a service requires people to read through and accept a very long end user agreement - almost nobody actually takes the time to read through all of it, and often the text contains things that no sane person actually would agree on.
 
@@ -54,7 +25,9 @@ Even untargetted marketing ads may be considered evil.  It's annoying, and among
 
 How do you feel about services financed through promoted contents on the internet?  Feel free to tell in the comments :-)
 
-## Possible to use for anyone, on any platform
+![By Thierry Gregorius (Cartoon: Big Data) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/b/b3/Big_data_cartoon_t_gregorius.jpg)
+
+# Possible to use for anyone, on any platform
 
 This is quite important, I'd say - a service that can be used by 99% of the population is simply not good enough.  People are often biased, not seeing the inherent restrictions there may be on a product, here are some examples:
 
@@ -68,7 +41,9 @@ This is quite important, I'd say - a service that can be used by 99% of the popu
 
 Is this nonsense?  You probably only need to chat with the 98% normal people out there, and not those other freaks?  Feel free to tell in the comments :-)
 
-## Free and open source software
+!(http://www.bluebadgestyle.com/wp-content/uploads/2013/07/disabled-toilet-down-stairs.jpg)
+
+# Free and open source software
 
 I'm almost exclusively using [open source and free software](https://en.wikipedia.org/wiki/Free_and_open-source_software).  What's in it for me?  Quality and freedom.
 
@@ -78,7 +53,9 @@ Freedom: It rarely happens that I'm getting my hands dirty and actually do modif
 
 I could write a lot about why I have a very strong preferance for free software, maybe there will be another post some day.  Do you think it's unimportant?  Feel free to tell in the comments :-)  
 
-## Open standards
+![By Gregor Richards, inspiration by Harrison Metzger [CC BY 3.0 (http://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Free_Software_and_Open_Source_Software_Composite_Logo.svg/500px-Free_Software_and_Open_Source_Software_Composite_Logo.svg.png)
+
+# Open standards
 
 It is important that one is free to create other products to connect to the network - it may be competing client, complimentary software, software made for some particular device, for the impaired etc.  One may want to create gateways for connecting different chat-networks or services sending relevant notifications to a group or an individual, etc.  To allow this, it's important that the standard (aka protocol) is well-defined, and it's important that there are good frameworks for improving the standard and resolving conflicts.
 
@@ -86,7 +63,7 @@ Particularly the latter may be important; [IRC](https://en.wikipedia.org/wiki/In
 
 Some may even claim that the system has to be centrally controlled so the protocol can evolve faster (i.e. Moxie Marlinspike defending signal/OpenWhisperSystems not allowing federation in his article [Reflections: The ecosystem is moving](https://whispersystems.org/blog/the-ecosystem-is-moving/)) - the IRC and Email has declined and become less usable because it's so very difficult to change the standard - maybe Bitcoin also will go that way.  Is a "benevolent dictator" and homogenic software the only way to build a progressive network?  A centralized network without a public open standard can still provide a decent API allowing third-parties to create gateways, alternative clients, etc.
 
-## Decentralization and federation
+# Decentralization and federation
 
 In an ideal network there is no central servers or other dependencies on any single entity.  Such a single entity may become corrupt, compromised, may die or go bankrupt, etc.  Such dependencies causes fragility.
 
@@ -94,22 +71,10 @@ In the ideal chat network, anyone can start up their own nodes in the network, n
 
 Is it really important with a fully distributed system?  Maybe I'm overdoing?  Please leave a comment.
 
-# Security
+![By Rob Hille (Own work) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/5/52/Mycelium_RH_%288%29.jpg)
 
-## Protection against spamming
+# Other
 
-In any communication network where people can create new accounts for free and reach out to anyone, spam and phishing is bound to become a problem.
+Have I forgotten anything?  Do you think any of the above points are more or less important than the others?  Please leave comments!
 
-Some ways to prevent it:
-
-* Cost - a direct monetary cost, CAPTCHA or a [Proof of Work](https://en.wikipedia.org/wiki/Proof-of-work_system)-concept may restrict spamming to some extent - but it's a quite inefficient spam-filter; any kind of cost on sending messages (or registering accounts) will work as a deterrent against some legitimate use-cases, in the same time some spammers may easily eat the cost, the worst spammers may even manage push the cost over onto others.  Proof of work is not a good concept, spammers with access to the right kind of equipment may push out spam at a high rate (t).  perhaps at no cost for the spammer (utilizing resources they have gained unauthorized access to, or just maxing out CPU that they have rented on a flat rate), while users trying to send legitimate messages from old hardware will have annoying delays while the device is trying to send the message - the cost in terms of wasted battery power may be a real problem.  The users are cost-sensitive, too much costs and people will chose other networks.  Captchas are annoying and difficult to set up a good captcha-system that works for the disabled and isn't centralized.
-* Blacklisting of IPs belonging to spammers.  Not a very viable option, particularly with IPv6.
-* Some kind of identification of the sender, and blocks on abusive users.  Many modern chat systems uses a telephone number for the identification part; this may work to some extent as it's usually non-trivial to source a big number of telephone numbers cheaply - though it's difficult to authenticate and block users in a decentralized manner, and in reality there is no one-to-one-mapping between people and telephone numbers - some people have 0 personal telephone numbers, others have several, and yet others are frequently changing theirs.  Others may also want to chat anonymously or pseudonymously, without the conversation being tied to a telephone number.
-* An invite-only-network, i.e. that one has to give away a public key or a username and a code outside the chat system.  This prevents adoption, so no good.  In some systems one has to establish a connection before one can chat - but it's often possible to abuse the "hi, please connect with me"-message for spam purposes.
-* A peer-to-peer online identity and reputation scoring system could probably have solved this nicely.  Actually, I think we really need a global open peer-to-peer reputation scoring system - more about that in future posts.
-
-## Protection  with encryption also on the meta-data; noone should know that Alice has spoken with Bob.
-with good authentication of the sender - it should be impossible to send with a spoofed sender identity ...
- ... but "deniability" may also be an important feature, the sender may not want the receiver to be able to prove that the chat has taken place
-with forward secrecy: past communications should be secure even if the keys are stolen
-audited: an external party ought to have audited the security design and code
+In the next posts I'll cover security, features, finally I'll try to compile a list of existing services and how they compare with the requirements.
