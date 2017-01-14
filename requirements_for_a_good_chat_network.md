@@ -2,6 +2,18 @@ I touched base on the history of chat networks and problem of siloization in my 
 
 ![Drawn by author, released as Public Domain](http://github.com/tobixen/chat-articles/raw/master/liberatechat.png)
 
+# Summary first
+
+Under the "freedom" umbrella, I have those points:
+
+* No significant cost to use
+* No lock-in
+* Accessibility
+* FOSS
+* Open standards
+
+Some of them may be a bit at odds with each other and at odds with security and functionality.  For instance, the possibility of future profits can really speed up investment, development and marketing - and marketing may be needed to get a critical mass of adoption - but it's very hard to combine profit with freedom (though, Steemit seems to have managed to crack that nut).  "Open standards" also tends to become stuck - nobody can design the perfect standard from scratch, and a standard cannot easily be changed if it implies a whole ecosystem of applications needs to be upgraded.  I'll discuss more on this later.
+
 # Free as in gratis - no cost
 
 One is often regarded as a miser if one is reluctant to pay and demanding that some service should be free.  The old phone network and SMS'es are paid services.  There are certainly benefits with this - one should perhaps expect higher reliability and availability from a paid-for service than for some free service, it's to some extent working as a deterent against spamming (but maybe not so much - I do get a decent amount of spam both to my physical paper-mailbox as well as to my telephone), it may cause better utilization of resources ... and it does require resources to build and maintain a perfect chat service - someone has to pay, directly or indirectly.  There ain't no such thing as a free lunch.  Actually I wouldn't mind paying a bit for a decent chat service, except, if it wasn't for ...
@@ -27,19 +39,20 @@ How do you feel about services financed through promoted contents on the interne
 
 ![By Thierry Gregorius (Cartoon: Big Data) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/b/b3/Big_data_cartoon_t_gregorius.jpg)
 
-# Possible to use for anyone, on any platform
+# Accessibility - possible to use for anyone, on any platform
 
 This is quite important, I'd say - a service that can be used by 99% of the population is simply not good enough.  People are often biased, not seeing the inherent restrictions there may be on a product, here are some examples:
 
 * Maybe some 98% of the adult population has a personal telephone number and a mobile phone, but a perfect chat service should cater for 100% (even including children), not only 98%.  Some chat platforms are using telephone numbers as identifiers and text messages as authentication method.  It's all fine and dandy for most of us - but then again, there are people who denies using cellphones for various reasons, so this is no good.  A service using telephone number as identifier should at least provide some workarounds.
 
 * Other chat platforms may provide an android app and an iPhone app - and maybe even an app for the windows phone.  Everyone has one of those three anyway, right?  Wrong!  And even if it was true ... among those that are using those platforms, there are people who couldn't afford upgrading the phone for some years - stuck with old hardware and probably also an old version of the operating system, and probably the latest version of the app won't work anymore.  People like me (SailfishOS - but it does support android apps) may also have a strong desire to be able to do chatting from the laptop or desktop computer.  (Generally, things have improved quite a lot over the last decade - but earlier I would quite often find myself excluded because I run Linux instead of Windows, and generally don't use any Microsoft products at all).
-
 * A bit similar, a chat platform based exclusively on a desktop application or an advanced web application may not work at all on mobile devices.  A person sitting by the computer screen all day may not think about this restriction.  (Generally things have improved during the last decade, earlier quite many web pages was optimized for screens with resolution 800x600 - anything smaller and the web page would be hard to navigate and read, anything bigger and it would look very ugly).
+
+* It needs to be accessible also for "ordinary" people.  Quite some technologies have failed gaining adoption because it has failed appealing to ordinary folks.  We need a chat system that can be *easily* used by the majority of the population.  Even though I just said using telephone numbers as identifier is a bad thing and that relying on android/iphone apps is a bad thing, but it may still be important to have android and iphone apps that can tap into the internal phone book (or CardDAV backend) and map your friends with people that are available in the chat network.  The important thing is just that it should still be possible to connect to the network for people who don't have a telephone number and don't want to share information about their personal network with neither the app nor the network servers.
 
 * A perfect chat system should be possible to use also for people with different kinds of impairment.  Yes, doing a text chat with the visually impaired is fully possible - there are specialized software for translating the screen content to spoken text, but if the only available chat client is some complicated GUI client and no text user interface client exists it may be difficult to operate.  Doing a voice chat with someone that can't hear is slightly more difficult.  At least here in Norway there was (is?) a government-paid service with human translators working as a gateway between the old telephone network and specialized text chat terminals for the hearing impaired.  Today I think it's better to just use text chat from end to end.
 
-Is this nonsense?  You probably only need to chat with the 98% normal people out there, and not those other freaks?  Feel free to tell in the comments :-)
+Is this nonsense?  You probably only need to chat with the 98% normal people out there, and use other means of communication towards the freaks who don't want to be part of the network?  Feel free to tell in the comments :-)
 
 !["Stolen" picture - haven't managed to find the origin](http://www.bluebadgestyle.com/wp-content/uploads/2013/07/disabled-toilet-down-stairs.jpg)
 
@@ -81,12 +94,12 @@ Is it really important with a fully distributed system?  Please leave a comment.
 
 ![By Rob Hille (Own work) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/5/52/Mycelium_RH_%288%29.jpg)
 
-# Other
+# Last words
 
 With a decentralizated network and open protocols, it should usually be possible to create gateways/bridges for connecting different chat networks, that may be a solution to create one network out of the current fragmented mess.
 
 Are there other points worth mentioning that I have forgotten?  Of course, security is important, and I also have a list of features that a modern chat network should support - but that's for a future post.  Finally I'm intending to compile a list of existing services and how they compare with the requirements.
 
-Do you think any of the above points are more or less important than the others?  Please leave comments!
 
+Do you think any of the above points are more or less important than the others?  Please leave comments!
 
