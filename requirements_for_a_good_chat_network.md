@@ -1,3 +1,7 @@
+This article is published on Steem: https://steemit.com/technology/@tobixen/requirement-for-a-perfect-chat-service-freedom
+
+-----
+
 I touched base on the history of chat networks and problem of siloization in my previous post [The great chat fragmentation](https://steemit.com/technology/@tobixen/the-great-chat-fragmentation).  I will go on and describe what I want from a perfect chat network: it should be free, it should be secure and it should be feature-rich.  This post will elaborate on the first of those three points - freedom.
 
 ![Drawn by author, released as Public Domain](http://github.com/tobixen/chat-articles/raw/master/liberatechat.png)
